@@ -1,0 +1,269 @@
+/* custom css router link */
+a {
+    text-decoration: none
+}
+
+/* css for nav bar content */
+
+/* common nav bar */
+
+.m-navbar {
+    background-color: #393a3d;
+    height: 100vh;
+    width: var(--navbar-width);
+    position: fixed;
+    border-right: 1px solid #393a3d;
+    top: 0;
+    left: 0;
+    font-size: 13px;
+}
+
+.navbar-small {
+    --navbar-width: 52px;
+}
+
+.box-icon-toggle {
+    transition-delay: 250ms;
+}
+
+.m-navbar .box-navbar {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* set header nav bar */
+
+.m-navbar .box-navbar .navbar-header {
+    display: flex;
+    background-color: #38393d;
+    padding: 10px;
+    height: 0px; 
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* load icon header toggle  */
+
+.navbar-header .navbar-header-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: url(../../../assets/img/Sprites_Icon.svg) no-repeat -424px -86px;
+}
+
+/* set logo svg */
+
+.navbar-header .navbar-header-logo {
+    width: 96px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.navbar-header .navbar-header-logo .header-logo {
+    width: 100%;
+    height: 100%;
+}
+
+/* Set display for list menu */
+
+.navbar-items {
+    height: calc(100vh - 48px);
+    padding-top: 14px;
+    font-size: 13px;
+    overflow: auto;
+    font-family: "NotoSans-regular", Open Sans local;
+}
+
+.navbar-items .items-box-content {
+    line-height: 42px;
+    height: 42px;
+    border-left: 6px solid transparent;
+    padding-left: 8px;
+    color: #fff;
+    position: relative;
+    display: flex;
+    cursor: pointer;
+}
+
+.navbar-items .navbar-items-icon {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+}
+
+/* set hover items */
+
+.navbar-items .navbar-item-hover {
+    background-color: #616164;
+}
+
+/* set selected active item menu */
+
+.navbar-item-selected:before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: #fff;
+    opacity: 0.2;
+    position: absolute;
+}
+
+.navbar-item-selected {
+    position: relative;
+    font-family: "NotoSans-bold";
+    border-left-color: #2ca01c !important;
+}
+
+/* set class active for router link */
+
+/* set icon for each item menu */
+
+.toogle-icon-menu {
+    background-position: -312px -32px !important;
+}
+
+.icon-dashboard {
+    background-position: -30px -1628px !important;
+}
+
+.icon-cash {
+    background-position: -73px -1628px !important;
+}
+
+.icon-deposits {
+    background-position: -117px -1628px !important;
+}
+
+.icon-purchase {
+    background-position: -161px -1628px !important;
+}
+
+.icon-sell {
+    background-position: -204px -1628px !important;
+}
+
+.icon-bill {
+    background-position: -249px -1628px !important;
+}
+
+.icon-warehouse {
+    background-position: -291px -1628px !important;
+}
+
+.icon-tools {
+    background-position: -336px -1628px !important;
+}
+
+.icon-assets {
+    background-position: -378px -1630px !important;
+}
+
+.icon-tax {
+    background-position: -423px -1630px !important;
+}
+
+.icon-price {
+    background-position: -467px -1628px !important;
+}
+
+.icon-synthetic {
+    background-position: -510px -1628px !important;
+}
+
+.icon-budget {
+    background-position: -378px -1659px !important;
+}
+
+.icon-report {
+    background-position: -547px -1628px !important;
+}
+
+.icon-analysis {
+    background-position: -204px -1664px !important;
+}
+
+/* class icon active when click router */
+
+.icon-dashboard-active {
+    background-position: -30px -1585px !important;
+}
+
+.icon-cash-active {
+    background-position: -73px -1585px !important;
+}
+
+.icon-deposits-active {
+    background-position: -117px -1585px !important;
+}
+
+.icon-purchase-active {
+    background-position: -161px -1585px !important;
+}
+
+.icon-sell-active {
+    background-position: -204px -1585px !important;
+}
+
+.icon-bill-active {
+    background-position: -249px -1585px !important;
+}
+
+.icon-warehouse-active {
+    background-position: -291px -1585px !important;
+}
+
+.icon-tools-active {
+    background-position: -336px -1585px !important;
+}
+
+.icon-assets-active {
+    background-position: -378px -1630px !important;
+}
+
+.icon-tax-active {
+    background-position: -423px -1630px !important;
+}
+
+.icon-price-active {
+    background-position: -467px -1585px !important;
+}
+
+.icon-synthetic-active {
+    background-position: -510px -1585px !important;
+}
+
+.icon-budget-active {
+    background-position: -378px -1659px !important;
+}
+
+.icon-report-active {
+    background-position: -547px -1585px !important;
+}
+
+.icon-analysis-active {
+    background-position: -204px -1664px !important;
+}
+
+/** custom tool tip*/
+
+.m-tooltip .tooltiptext {
+    visibility: visible;
+    width: auto;
+    background-color: #616164;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    top: 120%;
+}
+
+.m-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
