@@ -1,0 +1,51 @@
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.Infastructure.deps.json
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.Infastructure.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\ref\MISA.Infastructure.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.Infastructure.pdb
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.ApplicationCore.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.AssemblyReference.cache
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.AssemblyInfoInputs.cache
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.AssemblyInfo.cs
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.CoreCompileInputs.cache
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.CopyComplete
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\ref\MISA.Infastructure.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.pdb
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.Properties.Resources.resources
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.GenerateResource.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.Infastructure.deps.json
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.Infastructure.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\ref\MISA.Infastructure.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.Infastructure.pdb
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.ApplicationCore.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.AssemblyReference.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.Properties.Resources.resources
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.GenerateResource.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.AssemblyInfoInputs.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.AssemblyInfo.cs
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.CoreCompileInputs.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.CopyComplete
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\ref\MISA.Infastructure.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.pdb
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.Infastructure.deps.json
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.Infastructure.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\ref\MISA.Infastructure.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.Infastructure.pdb
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.ApplicationCore.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.AssemblyReference.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.Properties.Resources.resources
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.GenerateResource.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.AssemblyInfoInputs.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.AssemblyInfo.cs
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.CoreCompileInputs.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.csproj.CopyComplete
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\ref\MISA.Infastructure.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.Infastructure\obj\Debug\net5.0\MISA.Infastructure.pdb

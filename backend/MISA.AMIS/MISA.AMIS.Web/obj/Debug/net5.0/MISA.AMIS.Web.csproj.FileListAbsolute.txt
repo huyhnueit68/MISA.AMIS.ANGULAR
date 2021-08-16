@@ -1,0 +1,177 @@
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\appsettings.Development.json
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\appsettings.json
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.exe
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.deps.json
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.runtimeconfig.json
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.runtimeconfig.dev.json
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\ref\MISA.AMIS.Web.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.pdb
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Dapper.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\EPPlus.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Google.Protobuf.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.OpenApi.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MySql.Data.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Zstandard.Net.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MySQLConnection.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.IO.Pipelines.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Runtime.Caching.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.ApplicationCore.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.Infastructure.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.Infastructure.pdb
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.csproj.AssemblyReference.cache
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.GeneratedMSBuildEditorConfig.editorconfig
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.AssemblyInfoInputs.cache
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.AssemblyInfo.cs
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.csproj.CoreCompileInputs.cache
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.MvcApplicationPartsAssemblyInfo.cs
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.MvcApplicationPartsAssemblyInfo.cache
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\staticwebassets\MISA.AMIS.Web.StaticWebAssets.Manifest.cache
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\staticwebassets\MISA.AMIS.Web.StaticWebAssets.xml
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\scopedcss\bundle\MISA.AMIS.Web.styles.css
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.RazorTargetAssemblyInfo.cache
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.csproj.CopyComplete
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\ref\MISA.AMIS.Web.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.pdb
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.genruntimeconfig.cache
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\ClosedXML.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\ExcelNumberFormat.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.IO.Packaging.dll
+C:\Document Study\MISA_Training\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\appsettings.Development.json
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\appsettings.json
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.exe
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.deps.json
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.runtimeconfig.json
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.runtimeconfig.dev.json
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\ref\MISA.AMIS.Web.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.pdb
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\ClosedXML.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Dapper.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\EPPlus.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\ExcelNumberFormat.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Google.Protobuf.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MySql.Data.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Zstandard.Net.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MySQLConnection.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.IO.Packaging.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.ApplicationCore.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.Infastructure.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.Infastructure.pdb
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.csproj.AssemblyReference.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.AssemblyInfoInputs.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.AssemblyInfo.cs
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.csproj.CoreCompileInputs.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\staticwebassets\MISA.AMIS.Web.StaticWebAssets.Manifest.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\staticwebassets\MISA.AMIS.Web.StaticWebAssets.xml
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\scopedcss\bundle\MISA.AMIS.Web.styles.css
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.RazorTargetAssemblyInfo.cache
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.csproj.CopyComplete
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\ref\MISA.AMIS.Web.dll
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.pdb
+D:\MISA_Training_GD1\MISA.WEB2021_05B\web05b-mf869-pqhuy\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.genruntimeconfig.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\appsettings.Development.json
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\appsettings.json
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.exe
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.deps.json
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.runtimeconfig.json
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.runtimeconfig.dev.json
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\ref\MISA.AMIS.Web.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.AMIS.Web.pdb
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\ClosedXML.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Dapper.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\DocumentFormat.OpenXml.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\EPPlus.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\ExcelNumberFormat.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Google.Protobuf.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\K4os.Compression.LZ4.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\K4os.Compression.LZ4.Streams.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\K4os.Hash.xxHash.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.AspNetCore.Http.Features.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.Extensions.Primitives.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Microsoft.OpenApi.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MySql.Data.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Ubiety.Dns.Core.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Zstandard.Net.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MySQLConnection.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Newtonsoft.Json.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.IO.Packaging.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.IO.Pipelines.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Runtime.Caching.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Security.Cryptography.ProtectedData.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\System.Xml.XPath.XmlDocument.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.ApplicationCore.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.Infastructure.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.ApplicationCore.pdb
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\bin\Debug\net5.0\MISA.Infastructure.pdb
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.csproj.AssemblyReference.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.AssemblyInfoInputs.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.AssemblyInfo.cs
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.csproj.CoreCompileInputs.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\staticwebassets\MISA.AMIS.Web.StaticWebAssets.Manifest.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\staticwebassets\MISA.AMIS.Web.StaticWebAssets.xml
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\scopedcss\bundle\MISA.AMIS.Web.styles.css
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.RazorTargetAssemblyInfo.cache
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.csproj.CopyComplete
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\ref\MISA.AMIS.Web.dll
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.pdb
+D:\MISA_Training Angular\MISA.AMIS.ANGULAR\backend\MISA.AMIS\MISA.AMIS.Web\obj\Debug\net5.0\MISA.AMIS.Web.genruntimeconfig.cache
