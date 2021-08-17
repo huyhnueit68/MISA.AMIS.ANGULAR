@@ -1,1 +1,122 @@
-/* You can add global styles to this file, and also import other style files */
+/* init font type */
+
+@font-face {
+    font-family: "NotoSans-bold";
+    src: url("./assets/fonts/notosans-bold.3ede5aff.woff2");
+}
+
+@font-face {
+    font-family: "NotoSans-italic";
+    src: url("./assets/fonts/notosans-italic.1c1aaac9.woff2");
+}
+
+@font-face {
+    font-family: "NotoSans-regular";
+    src: url("./assets/fonts/notosans-regular.2cb88a13.woff2");
+}
+
+@font-face {
+    font-family: "NotoSans-semibold";
+    src: url("./assets/fonts/notosans-semibold.df3e6dc4.woff2");
+}
+
+/* init value for display menu */
+
+:root {
+    --navbar-width: 178px;
+    --nav-header-height: 48px;
+    --header-height: 48px;
+    --header-content-height: 36px;
+}
+
+::placeholder {
+    font-family: "NotoSans-italic";
+    font-size: 13px;
+    color: #bbb;
+}
+
+/* reset for web */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration-color: initial;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+body {
+    font-family: "NotoSans-regular", sans-serif;
+    height: 100vh !important;
+    font-size: 13px;
+    background: #f8f8f8;
+    font-weight: 400;
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+/* load icon for website */
+.mi-icon {
+    background: url("./assets/img/Sprites_Icon.svg") no-repeat;
+    cursor: pointer;
+}
+
+.mi-icon-48 {
+    width: 48px;
+    height: 48px;
+    min-width: 48px;
+    min-height: 48px;
+}
+
+.mi-icon-32 {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+}
+
+.mi-icon-24 {
+    width: 24px;
+    height: 24px;
+    min-width: 24px;
+    min-height: 24px;
+}
+
+.mi-icon-16 {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.mi-icon-14 {
+    width: 14px;
+    height: 14px;
+    min-width: 14px;
+    min-height: 14px;
+}
+
+/* set style for main inclue header and content */
+.main {
+    height: 100%;
+    width: calc(100% - var(--navbar-width) - 1px);
+    margin-left: calc(var(--navbar-width));
+}
+
+/* Config scroll bar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    z-index: 1;
+}
+
+::-webkit-scrollbar-track {
+    width: 5px;
+    background-color: #bbb;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #808080;
+    border-radius: 8px;
+}

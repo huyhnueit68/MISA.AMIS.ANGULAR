@@ -1,0 +1,29 @@
+<div class="m-navbar">
+    <div class="box-navbar">
+        <!-- main nav bar with icon toggle and icon logo amis -->
+        <div class="navbar-header">
+            <div class="navbar-header-icon"></div>
+            <div class="navbar-header-logo"><img class="header-logo" src="../../assets/img/Logo_Module.svg" alt="">
+            </div>
+            <div class="box-icon-toggle" *ngIf="_mainService.toggle_active">
+                <div class="toogle-icon-menu mi-icon mi-icon-24"></div>
+            </div>
+        </div>
+        <!-- for list icon menu -->
+        <div class="navbar-items">
+            <a *ngFor="let item of navBarItems ; let i = index" (mouseenter)="setHover(i)"
+                (mouseleave)="setUnHover($event)" class="items-box-content m-tooltip" [routerLink]="['/',item.m_router]"
+                routerLinkActive="router-link-active" v-tooltip.right="optionTooltip(item.m_title)"
+                [ngClass]="{'navbar-item-selected': item.m_router == '', 'navbar-item-hover': item.m_router !='' && i == crtHover}"
+                data-toggle="tooltip tool-box">
+                <!-- render icon for menu -->
+                <div class="navbar-items-icon">
+                    <div class="icon-child mi-icon mi-icon-24" [class]="setActiveIcon(item.c_icon, item.m_router, '')">
+                    </div>
+                </div>
+                <!-- render title -->
+                <div class="navbar-items-title" *ngIf="!_mainService.toggle_active">{{ item.m_title }}</div>
+            </a>
+        </div>
+    </div>
+</div>

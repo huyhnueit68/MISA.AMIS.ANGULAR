@@ -1,14 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './layout/nav-bar/nav-bar.component';
+import { TheMainComponent } from './components/layout/the-main/the-main.component';
+import { TheNavbarComponent } from './components/layout/the-navbar/the-navbar.component';
+import { TheHeaderComponent } from './components/layout/the-header/the-header.component';
+import { TheContentComponent } from './components/layout/the-content/the-content.component';
+import { ContentComponent } from './view/employee/content/content.component';
+import { PageNotFoundComponent } from './components/common/page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavBarComponent
+    TheMainComponent,
+    TheNavbarComponent,
+    TheHeaderComponent,
+    TheContentComponent,
+    ContentComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
