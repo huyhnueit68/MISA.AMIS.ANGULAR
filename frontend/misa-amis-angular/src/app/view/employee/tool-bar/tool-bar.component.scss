@@ -1,0 +1,193 @@
+/* css content container */
+.content-container {
+    height: calc(100vh - var(--header-height));
+    padding: 0px 16px;
+    padding-left: 20px;
+}
+
+/* header content */
+.header-content {
+    padding: 24px 0 24px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header content left */
+.header-content .content-left .left-title {
+    font-size: 24px;
+    height: var(--header-content-height);
+    font-weight: 700;
+    color: #111;
+}
+
+/* header cotnent right */
+.toolbar-btn-add {
+    height: 36px;
+    padding: 8px 14px 8px 20px;
+    display: flex;
+    align-items: center;
+    background-color: #2ca01c;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.toolbar-btn-add:hover {
+    background-color: #35bf22;
+    cursor: pointer;
+}
+
+.toolbar-btn-add .btn-add-title {
+    font-family: "NotoSans-bold";
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    font-size: 13px;
+}
+
+/* css for box table inclue toolbar, table and paging */
+.content-main {
+    width: 100%;
+    position: relative;
+    height: calc(100% - var(--header-height) - var(--header-content-height) - 14px);
+    background-color: #fff;
+}
+
+/* css for table content */
+
+/* toolbar table */
+.toolbar-table {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* toolbar right */
+.toolbar-table .toolbar-table-right {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+}
+
+/* toolbar search component */
+.toolbar-table .toolbar-table-right .toolbar-search {
+    width: 100%;
+    padding: 0 6px 0 6px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    justify-content: center;
+}
+
+.toolbar-table-right .toolbar-search .search-input {
+    min-width: 240px;
+    padding: 6px 8px 6px 8px;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+}
+
+/* set action hover and focus input field */
+.toolbar-table-right .toolbar-search .search-input:hover {
+    border: 1px solid #bbb;
+}
+
+.toolbar-table-right .toolbar-search .search-input:focus {
+    border: 1px solid #019160;
+}
+
+/* icon search */
+.toolbar-search .box-search-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: auto;
+    right: 5px;
+    border-right: 0;
+    padding-left: 3px;
+    margin-right: 4px;
+}
+
+.toolbar-search .box-search-icon .search-icon {
+    background-position: -992px -360px;
+    margin: 0 auto;
+}
+
+/* icon refresh */
+.box-import,
+.box-excel,
+.box-refresh {
+    width: 32px;
+    height: 32px;
+    padding: 0 6px 0 6px;
+    display: flex;
+    align-items: center;
+}
+
+/* set icon refresh data */
+.box-refresh .refresh-data {
+    background-position: -423px -201px;
+}
+
+.box-import .import-excel {
+    background-position: -481px -200px;
+}
+
+.box-import .import-excel-hover {
+    background-position: -481px -257px;
+}
+
+.box-refresh .refresh-data-hover {
+    background-position: -1098px -90px;
+}
+
+.box-excel .export-excel {
+    background-position: -704px -200px;
+}
+
+.box-excel .export-excel-hover {
+    background-position: -705px -258px;
+}
+
+.bold-text {
+    font-family: "NotoSans-bold";
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.jump-page {
+    cursor: pointer;
+}
+
+/* css for no data image info */
+.box-nodata {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+.box-nodata .nodata-text {
+    position: sticky;
+    margin: 50px 50px 30px;
+    width: 132px;
+    height: 74px;
+    left: 46%;
+}
+
+.box-nodata .nodata-img {
+    position: sticky;
+    margin: 50px 50px 30px;
+    width: 132px;
+    height: 74px;
+    left: 45%;
+}

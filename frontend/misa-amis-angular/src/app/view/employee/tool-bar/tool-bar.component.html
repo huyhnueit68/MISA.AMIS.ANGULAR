@@ -1,0 +1,41 @@
+<div class="toolbar-table">
+    <div class="toolbar-table-left">
+    </div>
+    <div class="toolbar-table-right">
+        <div class="toolbar-search">
+            <input placeholder="Tìm theo mã, tên nhân viên" type="text" class="search-input"
+                v-debounce:1000ms="searchFunc" ref="inputSearch">
+            <div class="box-search-icon">
+                <div class="search-icon mi-icon mi-icon-16"></div>
+            </div>
+        </div>
+        <!-- component button action -->
+        <div class="box-refresh" (click)="refreshData()" (mouseleave)="setUnHover('refresh-data')"
+            (mouseover)="setHover('refresh-data')">
+            <div class="mi-icon mi-icon-24" [ngClass]="{
+                    'refresh-data': hoverRefresh == false,
+                    'refresh-data-hover': hoverRefresh == true
+                }" v-tooltip.bottom="optionTooltip('Lấy lại dữ liệu')" data-toggle="tooltip tool-box">
+            </div>
+        </div>
+        <div class="box-excel" (click)="exportFormApi()" (mouseleave)="setUnHover('export-excel')"
+            (mouseover)="setHover('export-excel')">
+            <div class="mi-icon mi-icon-24" [ngClass]="{
+                    'export-excel': hoverExcel == false,
+                    'export-excel-hover': hoverExcel == true
+                }" v-tooltip.bottom="optionTooltip('Xuất ra excel')" data-toggle="tooltip tool-box">
+            </div>
+        </div>
+        <div class="box-import" (click)="importExcel()" (mouseleave)="setUnHover('import-excel')"
+            (mouseover)="setHover('import-excel')" v-tooltip.bottom="optionTooltip('Nhập khẩu dữ liệu')">
+            <div class="mi-icon mi-icon-24" [ngClass]="{
+                    'import-excel': hoverImport == false,
+                    'import-excel-hover': hoverImport == true
+                }">
+                <input id="file-input" ref="uploadFile" type="file"
+                    accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel"
+                    style="display: none" (change)="handleFileUpload()" />
+            </div>
+        </div>
+    </div>
+</div>

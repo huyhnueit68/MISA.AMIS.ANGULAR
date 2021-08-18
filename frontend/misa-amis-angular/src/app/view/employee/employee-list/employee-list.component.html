@@ -1,0 +1,63 @@
+<div class="table">
+    <div class="tableData">
+        <!-- table content -->
+        <table class="table-data" v-columns-resizable>
+            <thead class="header-table">
+                <tr class="tr-hover">
+                    <th class="custom-checkbox"><input type="checkbox" v-model="selectedAll" ref="selectedAll" /></th>
+                    <th *ngFor=" let item of employeeData.column"
+                        [ngClass]="{ 'text-right': item.dataType == 'Number', 'text-center': item.dataType == 'Date'}"
+                        :key="index" :title="item.columnName">
+                        {{ item.columnName }}
+                    </th>
+                    <th class="text-center">
+                        CHỨC NĂNG
+                    </th>
+                </tr>
+            </thead>
+            <tbody class="tbody-table" v-columns-resizable>
+                <tr *ngFor="let item of employeeData.gridData" :itemId="item[employeeData.idFieldName]" :key="index"
+                    (dblclick)="selectedItem(item)" class="tr-body tr-hover">
+                    <td>
+                        <input type="checkbox" v-model="selected" :value="item.employeeCode" number>
+                    </td>
+                    <td *ngFor="let col of employeeData.column"
+                        [ngClass]="{ 'text-right': col.dataType == 'Number', 'text-center': col.dataType == 'Date'}"
+                    >
+                        <span>{{ formatData(item[col.fieldName],col.dataType, col.enumName) }}</span>
+                    </td>
+                    <td class="td-body sticky-right set-drop-box">
+                        <!-- component drop function -->
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="box-nodata" v-show="isNoData">
+            <img src="../../../../assets/img/eport_nodata.svg" class="nodata-img">
+            <br>
+            <span class="nodata-text">Không có dữ liệu</span>
+        </div>
+    </div>
+    <!-- paging data -->
+    <div class="pagination">
+        <span>Tổng số: <span class="bold-text">100</span> bản ghi</span>
+        <div class="paging">
+            <!-- dx select box -->
+            <div class="pageMovement">
+                <div class="movePage" :class="setActiveChagePage('Previous')" (click)="nextPageIndex('Previous')">Trước
+                </div>
+                <div class="pages">
+                    <div v-if="isPrevious" (click)="changePageByIndex(1)" class="jump-page">1 ... </div>
+                    <div v-for="index in countPageDisplay" :key="index" :class="{ 'active-page': isActive(index) }"
+                        (click)="changePageByIndex(50)" class="page-item">
+                        50
+                    </div>
+                    <div v-if="isBehind" class="jump-page" (click)="changePageByIndex(10)">
+                        ... 50
+                    </div>
+                </div>
+                <div class="movePage" :class="setActiveChagePage('Behind')" (click)="nextPageIndex('Behind')">Sau</div>
+            </div>
+        </div>
+    </div>
+</div>

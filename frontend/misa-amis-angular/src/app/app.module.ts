@@ -8,7 +8,10 @@ import { TheHeaderComponent } from './components/layout/the-header/the-header.co
 import { TheContentComponent } from './components/layout/the-content/the-content.component';
 import { ContentComponent } from './view/employee/content/content.component';
 import { PageNotFoundComponent } from './components/common/page-not-found/page-not-found.component';
-
+import { HeaderComponent } from './view/employee/header/header.component';
+import { ToolBarComponent } from './view/employee/tool-bar/tool-bar.component';
+import { EmployeeListComponent } from './view/employee/employee-list/employee-list.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,10 +21,14 @@ import { PageNotFoundComponent } from './components/common/page-not-found/page-n
     TheContentComponent,
     ContentComponent,
     PageNotFoundComponent,
+    HeaderComponent,
+    ToolBarComponent,
+    EmployeeListComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
