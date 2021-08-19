@@ -21,7 +21,7 @@ export class ApiService {
    * CreatedBy: PQ Huy(18.08.2021)
    */
   get(url: string, data: any) {
-    return this.http.get(`${this.baseUrl + url}`, {params: data});
+    return this.http.get(`${this.baseUrl + url}`, {params: data}) as Observable<any>;
   }
 
   /**

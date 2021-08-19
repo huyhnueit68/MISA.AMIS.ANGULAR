@@ -1,0 +1,166 @@
+<div class="dialog" id="dlgEmployee" v-if="isShowDialog">
+    <div class="dialog-content" ref="modal" >
+        <!-- header content -->
+        <div class="dialog-header">
+            <div class="dialog-title flex items-center">
+                {{titleFormClone}}
+                <div class="ms-checkbox flex item-center">
+                    <input type="checkbox" name="state" id="" />
+                    <span class="tooltip-content mt-2">Là khách hàng</span>
+                </div>
+                <div class="ms-checkbox flex item-center mt-4">
+                    <input type="checkbox" name="state" />
+                    <span class="tooltip-content">Là nhà cung cấp</span>
+                </div>
+            </div>
+            <!-- Button help and close -->
+            <div class="btn-header flex">
+                <div class="dialog-help-button mi-icon mi-icon-24" v-tooltip.bottom="optionTooltip('Trợ giúp')"
+                    data-toggle="tooltip tool-box" title="Trợ giúp"></div>
+                <div class="dialog-close-button mi-icon mi-icon-24" title="Đóng(Esc)"
+                    v-tooltip.bottom="optionTooltip('Đóng')" data-toggle="tooltip tool-box" (click)="closeFormDetail()">
+                </div>
+            </div>
+        </div>
+        <!-- body content -->
+        <div class="body-content" ref="contentForm">
+            <div class="content-first">
+                <!-- left first content -->
+                <div class="first-left">
+                    <!-- row 1-->
+                    <div class="row-field">
+                        <!-- field 1 -->
+                        <BaseInput :isShow='true' class="custom-base-input-1" :bindingData="itemData.employeeCode"
+                            ref="refEmployeeCode" tabindex="1" FieldName="employeeCode" @updateValue="updateValue"
+                            @resValidInput="resValidInput" Required="true" isDuplicate="true"
+                            :BindingInput="BindingInput.employeeCode" />
+                        <!-- field 2 -->
+                        <BaseInput :isShow='true' class="custom-base-input-2" ref="employeeName" Required="true"
+                            @resValidInput="resValidInput" @updateValue="updateValue" tabindex="2"
+                            FieldName="employeeName" :BindingInput="BindingInput.employeeName"
+                            :bindingData="itemData.employeeName" />
+                    </div>
+                    <!-- row 2-->
+                    <div class="row-field full-row">
+                        <ComboboxInput :title="'Đơn vị'" :source="'DepartmentsApi'" :bindingData="itemData.departmentId"
+                            ref="cbo_Position" FieldName="departmentId" @updateValue="updateValue"
+                            @resValidInput="resValidInput" tabindex="3" RequireCbo="true" :property="'departmentId'"
+                            :isShowRequire='true' :showClear='true' class="custom-cbo" />
+                    </div>
+                    <!-- row 3-->
+                    <div class="row-field full-row">
+                        <!-- field 1 -->
+                        <BaseInput :isShow='false' @updateValue="updateValue" tabindex="4"
+                            :BindingInput="BindingInput.employeePosition" FieldName="employeePosition"
+                            :bindingData="itemData.employeePosition" class="" />
+                    </div>
+                </div>
+                <!-- right first content -->
+                <div class="first-right">
+                    <!-- row 1-->
+                    <div class="row-field">
+                        <!-- component datetime picker -->
+                        <DatetimePicker :title="'Ngày sinh'" :isShow='false' :bindingData="itemData.dateOfBirth"
+                            FieldName="dateOfBirth" @updateValue="updateValue" :property="'dateOfBirth'"
+                            ref="dateOfBirth" tabindex="5" class="custom-base-input-1" />
+                        <!-- component gender -->
+                        <div class="box-input input-gender">
+                            <label class="lable-input custom-lable">Giới tính</label>
+                            <div class="box-gender" tabindex="6">
+                                <input type="radio" name="gender" value="1" v-model="itemData.gender"
+                                    class="mg-right-10"><span class="pg-right-20">Nam</span>
+                                <input type="radio" name="gender" value="0" v-model="itemData.gender"
+                                    class="mg-right-10"><span class="pg-right-20">Nữ</span>
+                                <input type="radio" name="gender" value="2" v-model="itemData.gender"
+                                    class="mg-right-10"><span class="pg-right-20">Khác</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- row 2-->
+                    <div class="row-field">
+                        <!-- field 1 -->
+                        <BaseInput ref="identityNumber" @updateValue="updateValue" @resValidInput="resValidInput"
+                            tabindex="7" Required="true" FieldName="identityNumber"
+                            :BindingInput="BindingInput.identityNumber" :bindingData="itemData.identityNumber"
+                            class="custom-inpit-width" />
+                        <!-- field 2 -->
+                        <DatetimePicker :title="'Ngày cấp'" :isShow='false' :bindingData="itemData.identityDate"
+                            @updateValue="updateValue" FieldName="identityDate" :property="'identityDate'" tabindex="8"
+                            ref="identityDate" v-model="itemData.identityDate"
+                            class="custom-base-input-1 input-right" />
+                    </div>
+                    <!-- row 3-->
+                    <div class="row-field full-row">
+                        <!-- field 1 -->
+                        <BaseInput :isShow='false' @updateValue="updateValue" tabindex="9" FieldName="identityPlace"
+                            :BindingInput="BindingInput.identityPlace" :bindingData="itemData.identityPlace" class="" />
+                    </div>
+                </div>
+            </div>
+            <div class="content-second">
+                <!-- row 1 -->
+                <div class="second-row">
+                    <BaseInput :isShow='false' tabindex="10" @updateValue="updateValue"
+                        :BindingInput="BindingInput.address" FieldName="address" :bindingData="itemData.address"
+                        class="custom-input-full" />
+                </div>
+                <!-- row 2 -->
+                <div class="second-row-custom">
+                    <!-- field 1 -->
+                    <BaseInput :isShow='false' @updateValue="updateValue" tabindex="11" FieldName="phoneNumber"
+                        :BindingInput="BindingInput.phoneNumber" :bindingData="itemData.phoneNumber" class="" />
+                    <!-- field 2 -->
+                    <BaseInput :isShow='false' @updateValue="updateValue" tabindex="12" FieldName="telephoneNumber"
+                        :BindingInput="BindingInput.telephoneNumber" :bindingData="itemData.telephoneNumber" class="" />
+                    <!-- field 3 -->
+                    <BaseInput :isShow='false' @updateValue="updateValue" tabindex="13" :Duplicate="true"
+                        isDuplicate="true" Email="true" FieldName="email" :BindingInput="BindingInput.email"
+                        :bindingData="itemData.email" class="" />
+                </div>
+                <!-- row 3 -->
+                <div class="second-row-custom">
+                    <!-- field 1 -->
+                    <BaseInput :isShow='false' @updateValue="updateValue" :BindingInput="BindingInput.bankAccountNumber"
+                        tabindex="14" FieldName="bankAccountNumber" :bindingData="itemData.bankAccountNumber"
+                        class="" />
+                    <!-- field 2 -->
+                    <BaseInput :isShow='false' @updateValue="updateValue" :BindingInput="BindingInput.bankName"
+                        tabindex="15" FieldName="bankName" :bindingData="itemData.bankName" class="" />
+                    <!-- field 3 -->
+                    <BaseInput :isShow='false' @updateValue="updateValue" :BindingInput="BindingInput.bankBranchName"
+                        tabindex="16" FieldName="bankBranchName" :bindingData="itemData.bankBranchName" class="" />
+                </div>
+            </div>
+        </div>
+        <!-- footer dialog -->
+        <div class="dialog-footer">
+            <div class="divide-content"></div>
+            <div class="footer-button">
+                <div class="footer-left" tabindex="17">
+                    <button class="m-btn-second" (click)="closeFormDetail()" v-tooltip.top="tooltipBtn('Hủy')">Huỷ</button>
+                </div>
+                <div class="footer-right">
+
+                </div>
+                <div class="m-btn-first" tabindex="18">
+                    <button class="m-btn-second mr-rem-10" (click)="save('save')" v-tooltip.top="tooltipBtn('Cất')"
+                        data-toggle="tooltip tool-box">
+                        Cất
+                    </button>
+                </div>
+                <div class="m-btn-secound" tabindex="19">
+                    <button class="m-btn btn-save" (click)="save('saveContinue')"
+                        v-tooltip.top="tooltipBtn('Cất và thêm')" data-toggle="tooltip tool-box">
+                        Cất và thêm
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Popup warning -->
+    <!-- <DialogConfirm :formIcon="formIconPopup" ref="dialogConfirm" :titlePopup="titlePopup" :isBtnLeft="isBtnLeft"
+        :isBtnRightFirst="isBtnRightFirst" :isBtnRightSecound="isBtnRightSecound" :titleLeft="titleLeft"
+        :tleRightFirst="tleRightFirst" :tleRightSecound="tleRightSecound" :configClass="configClass"
+        :statusForm="statusForm" @closeAll="closeAll" @save='save' /> -->
+    <!-- <LoadingIcon /> -->
+</div>

@@ -16,7 +16,7 @@
                 </tr>
             </thead>
             <tbody class="tbody-table" v-columns-resizable>
-                <tr *ngFor="let item of employeeData.gridData" :itemId="item[employeeData.idFieldName]" :key="index"
+                <tr *ngFor="let item of employeeData.gridData; let i = index" :itemId="item[employeeData.idFieldName]" :key="i"
                     (dblclick)="selectedItem(item)" class="tr-body tr-hover">
                     <td>
                         <input type="checkbox" v-model="selected" :value="item.employeeCode" number>
@@ -28,11 +28,17 @@
                     </td>
                     <td class="td-body sticky-right set-drop-box">
                         <!-- component drop function -->
+                        <app-drop-function
+                            (setIndexImportant)="setIndexImportant(i)"
+                            (copyEvent)="copyRecord(item)"
+                            (deleteEvent)="deleteRecord(item)"
+                            (editEvent)="selectedItem(item)"
+                        ></app-drop-function>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <div class="box-nodata" v-show="isNoData">
+        <div class="box-nodata" *ngIf="noData">
             <img src="../../../../assets/img/eport_nodata.svg" class="nodata-img">
             <br>
             <span class="nodata-text">Không có dữ liệu</span>

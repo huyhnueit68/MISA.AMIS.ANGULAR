@@ -1,7 +1,11 @@
 import Enumeration from "./Enumeration";
 import Resource from "./Resource";
+import * as moment from 'moment';
 
 export class CommonFn{
+
+    constructor() { }
+    
     /**
      * Function format number
      * @param number 
@@ -24,7 +28,7 @@ export class CommonFn{
      */
     formatDate = (dateSrc: any) => {
         if (dateSrc)
-            // dateSrc = moment(dateSrc).format("DD/MM/YYYY");
+            dateSrc = moment(dateSrc).format("DD/MM/YYYY");
 
         return dateSrc;
     }
@@ -76,7 +80,7 @@ export class CommonFn{
      * @returns format date
      * CreatedBy: PQ Huy (08.07.2021)
      */
-    formatData = (data:string, dataType:string, enumName:number) => {
+    formatData = (data: string, dataType: string, enumName: string) => {
         let temp = "";
 
         if (data != null) {

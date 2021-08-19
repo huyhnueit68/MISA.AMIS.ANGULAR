@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 
 @Component({
   selector: 'app-tool-bar',
@@ -16,12 +16,15 @@ export class ToolBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  // out put event
+  @Output() refreshEvent = new EventEmitter<string>();
+
   /**
    * Function refresh data
    * CreatedBy: PQ Huy (18.08.2021)
    */
   refreshData() {
-    
+    this.refreshEvent.emit('');
   }
 
   /**

@@ -1,0 +1,14 @@
+<div class="box-action-row" (blur)="closeDrop()" tabindex="0">
+    <button class="btn-edit" (click)="editItem()"> <span>Sửa</span> </button>
+    <div class="button-arrow flex justify-center">
+        <div class="icon-arrow-up mi-icon mi-icon-16" [ngClass]="{'arrow-up-border': isActive == true}" (click)="openDrop()">
+        </div>
+    </div>
+    <div class="box-function" *ngIf="isShow">
+        <ul>
+            <li (click)="copyRecord()">Nhân bản</li>
+            <li (click)="deleteRecord()">Xoá</li>
+            <li>Ngưng sử dụng</li>
+        </ul>
+    </div>
+</div>

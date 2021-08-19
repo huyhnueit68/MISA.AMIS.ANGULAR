@@ -1,0 +1,11 @@
+<div class="box-input">
+    <div class="lable-input">
+        <span class="lable">{{BindingInput.label}}</span><span class="required" *ngIf="isShow"> * </span>
+    </div>
+    <input type="text" ref="reInput" maxlength="100" class="m-input refInput" title="" (keyup)="capitalize()"
+        (focus)="focus($event)" (blur)="blur($event)" [ngClass]="{
+            'error-input': isValid == false,
+            'success-input': isValid == true
+        }" v-tooltip.right="optionTooltip(titleToolTip)" data-toggle="tooltip tool-box" 
+        [(ngModel)]="dataReceive">
+</div>

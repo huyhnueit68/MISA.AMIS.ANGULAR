@@ -13,7 +13,7 @@ export class EmployeeApi {
    * @returns employee list
    * CreatedBy: PQ Huy(18.08.2021)
    */
-  getAllEmployee(){
+  getAllEmployee(): Observable<any>{
     return this._api.get('v1/Employees/', '');
   }
 

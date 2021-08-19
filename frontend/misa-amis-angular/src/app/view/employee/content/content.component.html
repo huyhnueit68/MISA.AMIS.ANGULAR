@@ -5,11 +5,12 @@
     <!-- main content -->
     <div class="content-main">
         <!-- toolbar table -->
-        <app-tool-bar></app-tool-bar>
+        <app-tool-bar (refreshEvent)="refreshEvent()"></app-tool-bar>
 
         <!-- content table  -->
-        <app-employee-list [employeeData]=employeeData></app-employee-list>
+        <app-employee-list [employeeData]=employeeData #employeeList></app-employee-list>
 
         <!-- Loading icon -->
+        <app-loadding-icon></app-loadding-icon>
     </div>
 </div>

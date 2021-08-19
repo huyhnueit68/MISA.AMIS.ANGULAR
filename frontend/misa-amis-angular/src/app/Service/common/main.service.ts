@@ -14,6 +14,10 @@ export class MainService {
 
   public pageSize = 10;
 
+  public showLoadding = false;
+
+  public formMode = 0;
+
   constructor(private loggerService: LoggerService) { }
 
   /**
