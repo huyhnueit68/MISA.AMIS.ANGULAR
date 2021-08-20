@@ -1,6 +1,5 @@
 var Resource:any = Resource || {};
 
-
 /**
  * Data type
  */
@@ -56,11 +55,71 @@ Resource.DuplicateType = {
     Email: "Email"
 }
 
+/**
+ * Change page size
+ */
+Resource.pageChange = {
+    Previous: 'Previous',
+    Behind: 'Behind'
+}
 
+/**
+ * Lable
+ */
+Resource.FormatLable = {
+    Address: 'address',
+    BankAccountNumber: 'bankAccountNumber',
+    BankBranchName: 'bankBranchName',
+    BankName: 'bankName',
+    BankProvinceName: 'bankProvinceName',
+    CreatedBy: 'createdBy',
+    CreatedDate: 'createdDate',
+    DateOfBirth: 'dateOfBirth',
+    DepartmentId: 'departmentId',
+    DepartmentName: 'departmentName',
+    Email: 'email',
+    EmployeeCode: 'employeeCode',
+    EmployeeId: 'employeeId',
+    EmployeeName: 'employeeName',
+    EmployeePosition: 'employeePosition',
+    Gender: 'gender',
+    IdentityDate: 'identityDate',
+    IdentityNumber: 'identityNumber',
+    IdentityPlace: 'identityPlace',
+    ModifedBy: 'modifedBy',
+    ModifedDate: 'modifedDate',
+    PhoneNumber: 'phoneNumber',
+    TelephoneNumber: 'telephoneNumber'
+}
 
-
-
-
+/**
+ * Lable format
+ */
+Resource.LableName = {
+    Address: 'ĐỊA CHỈ',
+    BankAccountNumber: 'TÀI KHOẢN NGÂN HÀNG',
+    BankBranchName: 'TÊN CHI NHÁNH',
+    BankName: 'TÊN NGÂN HÀNG',
+    BankProvinceName: 'TÊN TỈNH NGÂN HÀNG',
+    CreatedBy: 'TẠO BỞI',
+    CreatedDate: 'NGÀY TẠO',
+    DateOfBirth: 'NGÀY SINH',
+    DepartmentId: 'MÃ PHÒNG BAN',
+    DepartmentName: 'TÊN PHÒNG BAN',
+    Email: 'EMAIL',
+    EmployeeCode: 'MÃ NHÂN VIÊN',
+    EmployeeId: 'ID NHÂN VIÊN',
+    EmployeeName: 'TÊN NHÂN VIÊN',
+    EmployeePosition: 'CHỨC VỤ',
+    Gender: 'GIỚI TÍNH',
+    IdentityDate: 'NGÀY CẤP',
+    IdentityNumber: 'MÃ CMND',
+    IdentityPlace: 'NƠI CẤP CMND',
+    ModifedDate: 'NGÀY SỬA',
+    ModifedBy: 'SỬA BỞI',
+    PhoneNumber: 'ĐIỆN THOẠI DI ĐỘNG',
+    TelephoneNumber: 'ĐIỆN THOẠI CỐ ĐỊNH'
+}
 
 /**
  * lable input

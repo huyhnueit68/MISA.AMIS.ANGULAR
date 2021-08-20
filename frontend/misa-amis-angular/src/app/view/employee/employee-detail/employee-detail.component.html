@@ -1,4 +1,4 @@
-<div class="dialog" id="dlgEmployee" v-if="isShowDialog">
+<div class="dialog" id="dlgEmployee" *ngIf="isShowDialog">
     <div class="dialog-content" ref="modal" >
         <!-- header content -->
         <div class="dialog-header">
@@ -30,29 +30,40 @@
                     <!-- row 1-->
                     <div class="row-field">
                         <!-- field 1 -->
-                        <BaseInput :isShow='true' class="custom-base-input-1" :bindingData="itemData.employeeCode"
+                        <!-- <BaseInput :isShow='true' class="custom-base-input-1" :bindingData="itemData.employeeCode"
                             ref="refEmployeeCode" tabindex="1" FieldName="employeeCode" @updateValue="updateValue"
                             @resValidInput="resValidInput" Required="true" isDuplicate="true"
-                            :BindingInput="BindingInput.employeeCode" />
+                            :BindingInput="BindingInput.employeeCode" /> -->
+                            <app-base-input
+                                [isShow]=true
+                                [bindingData]="itemData.employeeCode"
+                                 tabindex="1"
+                                 [BindingInput]="BindingInput.employeeCode"
+                                 class="custom-base-input-1"
+                            ></app-base-input>
                         <!-- field 2 -->
-                        <BaseInput :isShow='true' class="custom-base-input-2" ref="employeeName" Required="true"
+                        <!-- <BaseInput :isShow='true' class="custom-base-input-2" ref="employeeName" Required="true"
                             @resValidInput="resValidInput" @updateValue="updateValue" tabindex="2"
                             FieldName="employeeName" :BindingInput="BindingInput.employeeName"
-                            :bindingData="itemData.employeeName" />
+                            :bindingData="itemData.employeeName" /> -->
+                            <app-base-input [isShow]=true [bindingData]="itemData.employeeName" tabindex="1"
+                                [BindingInput]="BindingInput.employeeName" class="custom-base-input-2"></app-base-input>
                     </div>
                     <!-- row 2-->
                     <div class="row-field full-row">
-                        <ComboboxInput :title="'Đơn vị'" :source="'DepartmentsApi'" :bindingData="itemData.departmentId"
+                        <!-- <ComboboxInput :title="'Đơn vị'" :source="'DepartmentsApi'" :bindingData="itemData.departmentId"
                             ref="cbo_Position" FieldName="departmentId" @updateValue="updateValue"
                             @resValidInput="resValidInput" tabindex="3" RequireCbo="true" :property="'departmentId'"
-                            :isShowRequire='true' :showClear='true' class="custom-cbo" />
+                            :isShowRequire='true' :showClear='true' class="custom-cbo" /> -->
                     </div>
                     <!-- row 3-->
                     <div class="row-field full-row">
                         <!-- field 1 -->
-                        <BaseInput :isShow='false' @updateValue="updateValue" tabindex="4"
+                        <!-- <BaseInput :isShow='false' @updateValue="updateValue" tabindex="4"
                             :BindingInput="BindingInput.employeePosition" FieldName="employeePosition"
-                            :bindingData="itemData.employeePosition" class="" />
+                            :bindingData="itemData.employeePosition" class="" /> -->
+                            <app-base-input [isShow]=false [bindingData]="itemData.employeePosition" tabindex="1"
+                                [BindingInput]="BindingInput.employeePosition"></app-base-input>
                     </div>
                 </div>
                 <!-- right first content -->
@@ -60,9 +71,9 @@
                     <!-- row 1-->
                     <div class="row-field">
                         <!-- component datetime picker -->
-                        <DatetimePicker :title="'Ngày sinh'" :isShow='false' :bindingData="itemData.dateOfBirth"
+                        <!-- <DatetimePicker :title="'Ngày sinh'" :isShow='false' :bindingData="itemData.dateOfBirth"
                             FieldName="dateOfBirth" @updateValue="updateValue" :property="'dateOfBirth'"
-                            ref="dateOfBirth" tabindex="5" class="custom-base-input-1" />
+                            ref="dateOfBirth" tabindex="5" class="custom-base-input-1" /> -->
                         <!-- component gender -->
                         <div class="box-input input-gender">
                             <label class="lable-input custom-lable">Giới tính</label>
@@ -79,56 +90,75 @@
                     <!-- row 2-->
                     <div class="row-field">
                         <!-- field 1 -->
-                        <BaseInput ref="identityNumber" @updateValue="updateValue" @resValidInput="resValidInput"
+                        <!-- <BaseInput ref="identityNumber" @updateValue="updateValue" @resValidInput="resValidInput"
                             tabindex="7" Required="true" FieldName="identityNumber"
                             :BindingInput="BindingInput.identityNumber" :bindingData="itemData.identityNumber"
-                            class="custom-inpit-width" />
+                            class="custom-inpit-width" /> -->
+                            <app-base-input [isShow]=false [bindingData]="itemData.identityNumber" tabindex="1"
+                                [BindingInput]="BindingInput.identityNumber" class="custom-inpit-width"></app-base-input>
                         <!-- field 2 -->
-                        <DatetimePicker :title="'Ngày cấp'" :isShow='false' :bindingData="itemData.identityDate"
+                        <!-- <DatetimePicker :title="'Ngày cấp'" :isShow='false' :bindingData="itemData.identityDate"
                             @updateValue="updateValue" FieldName="identityDate" :property="'identityDate'" tabindex="8"
                             ref="identityDate" v-model="itemData.identityDate"
-                            class="custom-base-input-1 input-right" />
+                            class="custom-base-input-1 input-right" /> -->
+                            
                     </div>
                     <!-- row 3-->
                     <div class="row-field full-row">
                         <!-- field 1 -->
-                        <BaseInput :isShow='false' @updateValue="updateValue" tabindex="9" FieldName="identityPlace"
-                            :BindingInput="BindingInput.identityPlace" :bindingData="itemData.identityPlace" class="" />
+                        <!-- <BaseInput :isShow='false' @updateValue="updateValue" tabindex="9" FieldName="identityPlace"
+                            :BindingInput="BindingInput.identityPlace" :bindingData="itemData.identityPlace" class="" /> -->
+                            <app-base-input [isShow]=false [bindingData]="itemData.identityPlace" tabindex="1"
+                                [BindingInput]="BindingInput.identityPlace"></app-base-input>
                     </div>
                 </div>
             </div>
             <div class="content-second">
                 <!-- row 1 -->
                 <div class="second-row">
-                    <BaseInput :isShow='false' tabindex="10" @updateValue="updateValue"
+                    <!-- <BaseInput :isShow='false' tabindex="10" @updateValue="updateValue"
                         :BindingInput="BindingInput.address" FieldName="address" :bindingData="itemData.address"
-                        class="custom-input-full" />
+                        class="custom-input-full" /> -->
+                        <app-base-input [isShow]=false [bindingData]="itemData.address" tabindex="1"
+                            [BindingInput]="BindingInput.address" class="custom-input-full"></app-base-input>
                 </div>
                 <!-- row 2 -->
                 <div class="second-row-custom">
                     <!-- field 1 -->
-                    <BaseInput :isShow='false' @updateValue="updateValue" tabindex="11" FieldName="phoneNumber"
-                        :BindingInput="BindingInput.phoneNumber" :bindingData="itemData.phoneNumber" class="" />
+                    <!-- <BaseInput :isShow='false' @updateValue="updateValue" tabindex="11" FieldName="phoneNumber"
+                        :BindingInput="BindingInput.phoneNumber" :bindingData="itemData.phoneNumber" class="" /> -->
+                        <app-base-input [isShow]=false [bindingData]="itemData.phoneNumber" tabindex="1" [BindingInput]="BindingInput.phoneNumber"
+                            ></app-base-input>
                     <!-- field 2 -->
-                    <BaseInput :isShow='false' @updateValue="updateValue" tabindex="12" FieldName="telephoneNumber"
-                        :BindingInput="BindingInput.telephoneNumber" :bindingData="itemData.telephoneNumber" class="" />
+                    <!-- <BaseInput :isShow='false' @updateValue="updateValue" tabindex="12" FieldName="telephoneNumber"
+                        :BindingInput="BindingInput.telephoneNumber" :bindingData="itemData.telephoneNumber" class="" /> -->
+                        <app-base-input [isShow]=false [bindingData]="itemData.telephoneNumber" tabindex="1" [BindingInput]="BindingInput.telephoneNumber"
+                            ></app-base-input>
                     <!-- field 3 -->
-                    <BaseInput :isShow='false' @updateValue="updateValue" tabindex="13" :Duplicate="true"
+                    <!-- <BaseInput :isShow='false' @updateValue="updateValue" tabindex="13" :Duplicate="true"
                         isDuplicate="true" Email="true" FieldName="email" :BindingInput="BindingInput.email"
-                        :bindingData="itemData.email" class="" />
+                        :bindingData="itemData.email" class="" /> -->
+                        <app-base-input [isShow]=false [bindingData]="itemData.email" tabindex="1" [BindingInput]="BindingInput.email"
+                            class="custom-input-full"></app-base-input>
                 </div>
                 <!-- row 3 -->
                 <div class="second-row-custom">
                     <!-- field 1 -->
-                    <BaseInput :isShow='false' @updateValue="updateValue" :BindingInput="BindingInput.bankAccountNumber"
+                    <!-- <BaseInput :isShow='false' @updateValue="updateValue" :BindingInput="BindingInput.bankAccountNumber"
                         tabindex="14" FieldName="bankAccountNumber" :bindingData="itemData.bankAccountNumber"
-                        class="" />
+                        class="" /> -->
+                        <app-base-input [isShow]=false [bindingData]="itemData.bankAccountNumber" tabindex="1" [BindingInput]="BindingInput.bankAccountNumber"
+                            class=""></app-base-input>
                     <!-- field 2 -->
-                    <BaseInput :isShow='false' @updateValue="updateValue" :BindingInput="BindingInput.bankName"
-                        tabindex="15" FieldName="bankName" :bindingData="itemData.bankName" class="" />
+                    <!-- <BaseInput :isShow='false' @updateValue="updateValue" :BindingInput="BindingInput.bankName"
+                        tabindex="15" FieldName="bankName" :bindingData="itemData.bankName" class="" /> -->
+                        <app-base-input [isShow]=false [bindingData]="itemData.bankName" tabindex="1" [BindingInput]="BindingInput.bankName"
+                           ></app-base-input>
                     <!-- field 3 -->
-                    <BaseInput :isShow='false' @updateValue="updateValue" :BindingInput="BindingInput.bankBranchName"
-                        tabindex="16" FieldName="bankBranchName" :bindingData="itemData.bankBranchName" class="" />
+                    <!-- <BaseInput :isShow='false' @updateValue="updateValue" :BindingInput="BindingInput.bankBranchName"
+                        tabindex="16" FieldName="bankBranchName" :bindingData="itemData.bankBranchName" class="" /> -->
+                        <app-base-input [isShow]=false [bindingData]="itemData.bankBranchName" tabindex="1" [BindingInput]="BindingInput.bankBranchName"
+                            ></app-base-input>
                 </div>
             </div>
         </div>

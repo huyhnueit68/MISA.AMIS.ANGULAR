@@ -1,0 +1,354 @@
+/* Css for dialog detail */
+
+.dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    max-height: 100%;
+    overflow: auto;
+    z-index: 21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog .dialog-content {
+    padding: 24px;
+    position: absolute;
+    min-width: 900px;
+    max-width: 900px;
+    width: 900px;
+    height: 600px;
+    background-color: #ffffff;
+    padding: 20px 32px;
+}
+
+/* Header dialog */
+
+.dialog .dialog-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+/* header title */
+
+.dialog .dialog-title {
+    font-size: 24px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button header */
+
+.dialog .dialog-header .btn-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+}
+
+.dialog .dialog-close-button {
+    border-radius: 0 4px 0 4px;
+    background-position: -144px -144px !important;
+    cursor: pointer;
+}
+
+.dialog .dialog-help-button {
+    border-radius: 0 4px 0 4px;
+    margin-right: 6px;
+    background-position: -89px -145px !important;
+    cursor: pointer;
+}
+
+.dialog .dialog-gender {
+    height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.dialog-hide {
+    display: none;
+}
+
+/* init class common dialog */
+
+.flex {
+    display: flex;
+}
+
+.dialog .dialog-footer {
+    justify-content: space-between;
+    width: 100%;
+}
+
+.dialog .dialog-footer .dialog-footer-button {
+    justify-content: space-between;
+}
+
+.ms-checkbox {
+    padding: 0px 19.5px;
+}
+
+span.tooltip-content {
+    color: #111111;
+    margin-left: 10px;
+    font-weight: 100;
+    font-size: 13px;
+}
+
+.item-center {
+    justify-content: flex-start;
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.loading-action {
+    z-index: 22 !important;
+}
+
+/* css for body content */
+
+.content-first {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.content-second {
+    padding-top: 10px;
+}
+
+.row-field {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+/* set with componet box content */
+
+.first-right,
+.first-left {
+    width: 50%;
+}
+
+.first-left {
+    padding-right: 26px;
+}
+
+/* custom input component */
+
+.custom-base-input-1 {
+    padding-right: 6px;
+}
+
+.custom-base-input-1 {
+    width: 40%;
+}
+
+.custom-base-input-2 input,
+.custom-base-input-1 input {
+    width: 100%;
+}
+
+.custom-base-input-2 {
+    width: 60%;
+}
+
+.input-right {
+    padding-right: 0px;
+}
+
+/* custom combobox autocomplete */
+
+.full-row {
+    width: 100%;
+}
+
+.full-row .box-input {
+    width: 100%;
+}
+
+.full-row .box-input .m-input {
+    width: 100%;
+}
+
+.row-field .dx-show-invalid-badge {
+    height: 32px;
+    width: 100%;
+}
+
+.custom-cbo {
+    width: 100%;
+}
+
+.dx-selectbox {
+    border-radius: 2px;
+}
+
+.lable-input {
+    font-size: 12px;
+    font-family: "NotoSans-bold";
+    padding-bottom: 4px;
+}
+
+.custom-lable {
+    padding-left: 16px;
+}
+
+/* css button gender */
+
+.box-gender {
+    width: 100%;
+    height: calc(100% - 20px);
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+}
+
+.pg-right-20 {
+    padding-right: 20px;
+}
+
+.mg-right-10 {
+    margin-right: 10px;
+}
+
+.custom-inpit-width {
+    padding-right: 10px;
+    width: 60%;
+}
+
+.custom-inpit-width .m-input {
+    width: 100%;
+}
+
+.custom-input-full input {
+    width: 100%;
+}
+
+/* Created animation checked input */
+
+input[type="radio"] {
+    transform: scale(1.5);
+}
+
+input[type="radio"]:checked {
+    background-color: #2ca01c;
+    border-color: #2ca01c;
+}
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    padding: 2px;
+    background-clip: content-box;
+    border: 1px solid #bbbbbb;
+    border-radius: 50%;
+}
+
+/* css for second content */
+
+.second-row-custom {
+    display: flex;
+}
+
+.second-row,
+.second-row-custom {
+    padding-bottom: 12px;
+}
+
+.second-row-custom .box-input {
+    padding-right: 6px;
+}
+
+/* css for footer  */
+
+.dialog-footer {
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.divide-content {
+    width: 100%;
+    border-top: 1px solid #e0e0e0;
+    margin: 32px 0 20px;
+    position: relative;
+}
+
+.footer-right,
+.footer-left {
+    width: 50%;
+}
+
+.footer-right {
+    justify-content: right;
+    text-align: end;
+}
+
+/* button action */
+
+.footer-button {
+    display: flex;
+}
+
+.box-save {
+    display: flex;
+}
+
+.footer-button {
+    justify-content: space-between;
+}
+
+.m-btn-second {
+    font-family: "NotoSans-bold";
+    border: 1px solid #8d9096;
+    border-radius: 3px;
+    height: 36px;
+    font-size: 13px;
+    color: #111;
+    padding: 8px 20px;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+}
+
+.m-btn-second:hover {
+    background-color: #d2d3d6;
+}
+
+.m-btn {
+    align-items: center;
+    background-color: #2ca01c;
+    border-radius: 4px;
+    height: 36px;
+    color: #ffffff;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-save {
+    width: 114px;
+}
+
+.m-btn:hover {
+    background-color: #35bf22;
+}
+
+.mr-rem-10 {
+    margin-left: 0.75rem !important;
+    margin-right: 0.75rem !important;
+}

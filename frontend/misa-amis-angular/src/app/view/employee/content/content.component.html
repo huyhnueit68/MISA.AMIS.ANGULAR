@@ -1,6 +1,6 @@
 <div class="content-container">
     <!-- header content -->
-    <app-header></app-header>
+    <app-header (addEmployee)="addEmployee()"></app-header>
 
     <!-- main content -->
     <div class="content-main">
@@ -9,6 +9,8 @@
 
         <!-- content table  -->
         <app-employee-list [employeeData]=employeeData #employeeList></app-employee-list>
+
+        <app-employee-detail #employeeDetail></app-employee-detail>
 
         <!-- Loading icon -->
         <app-loadding-icon></app-loadding-icon>

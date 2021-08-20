@@ -1,0 +1,539 @@
+/* css tooltip */
+.tooltip-detail-input {
+    position: absolute !important;
+    will-change: transform !important;
+    top: 19px !important;
+    left: -224px !important;
+    transform: translate3d(177px, 111px, 0px);
+}
+
+.tooltip-detail-input .tooltip-arrow {
+    display: none !important;
+}
+
+/* css for require class */
+.required {
+    color: red;
+}
+
+.m-input {
+    border: 1px solid #babec5;
+    border-radius: 2px;
+    height: 32px;
+    padding-left: 10px;
+}
+
+.m-input:hover {
+    outline: 1px solid #e2e2e2;
+}
+
+.lable-input {
+    font-size: 12px;
+    font-family: "NotoSans-bold";
+    padding-bottom: 4px;
+}
+
+/* Set css for each item */
+.error-input {
+    outline: none;
+    border: 1px solid #f65454;
+}
+
+.success-input:focus {
+    outline: none;
+    border: 1px solid #2ca01c;
+}
+
+/* css content container */
+.content-container {
+    height: calc(100vh - var(--header-height));
+    padding: 0px 16px;
+    padding-left: 20px;
+}
+
+/* header content */
+.header-content {
+    padding: 24px 0 24px 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* header content left */
+.header-content .content-left .left-title {
+    font-size: 24px;
+    height: var(--header-content-height);
+    font-weight: 700;
+    color: #111;
+}
+
+/* header cotnent right */
+.toolbar-btn-add {
+    height: 36px;
+    padding: 8px 14px 8px 20px;
+    display: flex;
+    align-items: center;
+    background-color: #2ca01c;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.toolbar-btn-add:hover {
+    background-color: #35bf22;
+    cursor: pointer;
+}
+
+.toolbar-btn-add .btn-add-title {
+    font-family: "NotoSans-bold";
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    font-size: 13px;
+}
+
+/* css for box table inclue toolbar, table and paging */
+.content-main {
+    width: 100%;
+    position: relative;
+    height: calc(100% - var(--header-height) - var(--header-content-height) - 14px);
+    background-color: #fff;
+}
+
+/* custom checkbox table */
+
+.hideFunctionEmployee {
+    display: none;
+}
+
+.showFunctionEmployee {
+    display: block;
+}
+
+td {
+    position: relative;
+}
+
+.function {
+    position: absolute;
+    background: white;
+    top: 30px;
+    right: 50px;
+    display: none;
+}
+
+.functionEmployee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.functionEmployee .icon {
+    margin-right: 0;
+}
+
+.functionEmployee .icon:hover {
+    border: 1px solid blue;
+}
+
+
+/* custom input checkbox */
+
+input[type="checkbox"] {
+    position: relative;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+}
+
+input[type="checkbox"]:checked {
+    transform: rotate(360deg);
+    transition: 0.2s;
+}
+
+input[type="checkbox"]:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 0;
+    left: 0;
+    border: 1px solid #babec5;
+    border-radius: 3px;
+    background-color: white;
+}
+
+input[type="checkbox"]:checked:after {
+    content: "";
+    display: block;
+    width: 7px;
+    height: 13px;
+    border: 1px solid #2ca01c;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    position: absolute;
+    left: 6px;
+}
+
+.movePage {
+    color: #9e9e9e;
+}
+
+.pages>div {
+    padding: 0 5px;
+    margin: 0 2px;
+}
+
+.active-page {
+    border: 1px solid #c7c7c7;
+    font-family: "NotoSans-bold";
+}
+
+.pages {
+    display: flex;
+    margin: 0 10px;
+}
+
+.comboboxPaging {
+    margin-right: 10px;
+}
+
+.editEmployee {
+    color: blueviolet;
+    cursor: pointer;
+    display: inline;
+}
+
+.optionEmployee {
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+/* Set table size */
+
+.table {
+    height: calc(100% - 50px);
+    width: 100%;
+    position: relative;
+    padding: 0 30px 0 16px;
+}
+
+
+/* Set paging size */
+
+.pagination {
+    position: sticky;
+    bottom: 0;
+    height: 46px !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.paging {
+    display: flex;
+    align-items: center;
+}
+
+.pageMovement {
+    display: flex;
+    align-items: center;
+}
+
+.tableData {
+    height: calc(100% - 70px);
+    width: 100%;
+    overflow: auto;
+    position: relative;
+}
+
+
+/* Set custom table css */
+
+.table-data {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.header-table th {
+    height: 34px !important;
+    padding: 0 10px 0 10px;
+    position: sticky;
+    white-space: nowrap;
+    top: 0;
+    background: #eceef1;
+    border-right: 1px solid #c7c7c7;
+    border-bottom: 1px solid #c7c7c7;
+    z-index: 4;
+    font-size: 12px;
+    text-align: left;
+    font-family: "NotoSans-bold";
+}
+
+th {
+    white-space: nowrap;
+}
+
+.tr-hover:hover>td {
+    background: #f3f8f8 !important;
+}
+
+.header-table tr>th:first-child {
+    position: sticky;
+    left: 0;
+    text-align: center;
+    background: #eceef1;
+    z-index: 5 !important;
+    padding-top: 3px;
+}
+
+tbody tr>td:first-child {
+    position: sticky;
+    left: 0;
+    text-align: center;
+    padding-top: 7px;
+    z-index: 2;
+    background: #fff !important;
+}
+
+.header-table tr>th:last-child,
+tbody tr>td:last-child {
+    position: sticky;
+    right: 0;
+    padding-left: 10px;
+}
+
+tbody tr {
+    font-size: 13px;
+}
+
+tbody tr>td:first-child,
+tbody tr>td:last-child {
+    background: white;
+    text-align: center;
+    z-index: 1;
+}
+
+.header-table tr>th:first-child,
+.header-table tr>th:last-child {
+    z-index: 4;
+}
+
+td {
+    height: 36px;
+    white-space: nowrap;
+    border-right: 1px solid #c7c7c7;
+    border-right-style: dotted;
+    border-bottom: 1px solid #c7c7c7;
+    padding: 5px 10px 5px 10px;
+}
+
+tbody tr>td:last-child {
+    border-left: 1px solid #c7c7c7;
+    border-left-style: dotted;
+    border-right: 0;
+}
+
+.header-table tr>th:last-child {
+    border-left: 1px solid #c7c7c7;
+    border-right: 0;
+}
+
+
+/* custom last child */
+
+.header-table tr>th:nth-last-child(2),
+tbody tr>td:nth-last-child(2) {
+    border-right: 0;
+}
+
+tbody tr>td:nth-last-child(1) {
+    z-index: 1;
+}
+
+
+/* Set index impotant */
+
+.index-important {
+    z-index: 3 !important;
+}
+
+.page-item:hover {
+    cursor: pointer;
+}
+
+.movePage {
+    cursor: pointer;
+}
+
+.enable-change-index {
+    pointer-events: auto;
+    color: #000;
+}
+
+.disable-change-index {
+    pointer-events: none !important;
+}
+
+
+/* custom for combobox */
+
+.dx-list-item-selected {
+    color: #fff !important;
+    background-color: #2ca01c !important;
+}
+
+.dx-list-item-selected:hover {
+    color: #fff !important;
+    background-color: #2ca01c !important;
+}
+
+.dx-list-item-selected:active {
+    color: #fff !important;
+    background-color: #2ca01c !important;
+}
+
+.dx-item-content:active {
+    color: #2ca01c !important;
+    background-color: #f8f8f8 !important;
+}
+
+/* css for table content */
+
+/* toolbar table */
+.toolbar-table {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* toolbar right */
+.toolbar-table .toolbar-table-right {
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    justify-content: center;
+    height: 100%;
+}
+
+/* toolbar search component */
+.toolbar-table .toolbar-table-right .toolbar-search {
+    width: 100%;
+    padding: 0 6px 0 6px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+    justify-content: center;
+}
+
+.toolbar-table-right .toolbar-search .search-input {
+    min-width: 240px;
+    padding: 6px 8px 6px 8px;
+    border: 1px solid #babec5;
+    border-radius: 2px;
+}
+
+/* set action hover and focus input field */
+.toolbar-table-right .toolbar-search .search-input:hover {
+    border: 1px solid #bbb;
+}
+
+.toolbar-table-right .toolbar-search .search-input:focus {
+    border: 1px solid #019160;
+}
+
+/* icon search */
+.toolbar-search .box-search-icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: auto;
+    right: 5px;
+    border-right: 0;
+    padding-left: 3px;
+    margin-right: 4px;
+}
+
+.toolbar-search .box-search-icon .search-icon {
+    background-position: -992px -360px;
+    margin: 0 auto;
+}
+
+/* icon refresh */
+.box-import,
+.box-excel,
+.box-refresh {
+    width: 32px;
+    height: 32px;
+    padding: 0 6px 0 6px;
+    display: flex;
+    align-items: center;
+}
+
+/* set icon refresh data */
+.box-refresh .refresh-data {
+    background-position: -423px -201px;
+}
+
+.box-import .import-excel {
+    background-position: -481px -200px;
+}
+
+.box-import .import-excel-hover {
+    background-position: -481px -257px;
+}
+
+.box-refresh .refresh-data-hover {
+    background-position: -1098px -90px;
+}
+
+.box-excel .export-excel {
+    background-position: -704px -200px;
+}
+
+.box-excel .export-excel-hover {
+    background-position: -705px -258px;
+}
+
+.bold-text {
+    font-family: "NotoSans-bold";
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.jump-page {
+    cursor: pointer;
+}
+
+/* css for no data image info */
+.box-nodata {
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+
+.box-nodata .nodata-text {
+    position: sticky;
+    margin: 50px 50px 30px;
+    width: 132px;
+    height: 74px;
+    left: 46%;
+}
+
+.box-nodata .nodata-img {
+    position: sticky;
+    margin: 50px 50px 30px;
+    width: 132px;
+    height: 74px;
+    left: 45%;
+}

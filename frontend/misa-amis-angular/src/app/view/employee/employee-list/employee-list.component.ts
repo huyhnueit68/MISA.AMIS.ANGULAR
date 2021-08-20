@@ -268,7 +268,8 @@ export class EmployeeListComponent implements OnInit {
   setIndexImportant(index: any){
       try {
           document.getElementsByClassName('set-drop-box')[index].classList.add('index-important');
-          document.getElementsByClassName('set-drop-box')[index+1].classList.remove('index-important');
+          document.getElementsByClassName('set-drop-box')[index + 1].classList.remove('index-important');
+          document.getElementsByClassName('set-drop-box')[index+2].classList.remove('index-important');
       } catch (error) {
           throw error;
       }

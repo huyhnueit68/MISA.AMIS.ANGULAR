@@ -4,7 +4,7 @@ import Resource from 'src/app/ts/common/Resource';
 @Component({
   selector: 'app-base-input',
   templateUrl: './base-input.component.html',
-  styleUrls: ['./base-input.component.scss']
+  styleUrls: ['./base-input.component.scss', '../../../../view/employee/employee-list/employee-list.component.scss']
 })
 export class BaseInputComponent implements OnInit {
 
@@ -27,7 +27,8 @@ export class BaseInputComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+    ngOnInit(): void {
+      debugger
   }
 
   /**

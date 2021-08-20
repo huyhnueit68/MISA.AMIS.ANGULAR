@@ -1,4 +1,5 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
+import Resource from 'src/app/ts/common/Resource';
 
 @Component({
   selector: 'app-content',
@@ -82,6 +83,7 @@ export class ContentComponent implements OnInit {
     }
 
     @ViewChild("employeeList") employeeList: any;
+    @ViewChild("employeeDetail") employeeDetail: any;
 
     /**
      * Function refresh data
@@ -89,6 +91,14 @@ export class ContentComponent implements OnInit {
      */
     refreshEvent() {
         this.employeeList.getEmployee();
+    }
+
+    /**
+     * Add new employee
+     */
+    addEmployee() {
+        debugger
+        this.employeeDetail.OpenDialog('', Resource.TitleForm.AddForm);
     }
 
 }
